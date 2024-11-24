@@ -30,7 +30,7 @@ function displayMenuItems(menu) {
         const menuList = document.createElement("li");
         menuList.textContent = menu;
         li.appendChild(menuList);
-
+        console.log(menuList)
         // Create an element to represent a list of items
 
         // Append a list of items element to the menu container
